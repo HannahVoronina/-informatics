@@ -1,1 +1,1 @@
-# -informatics
+# informatics
