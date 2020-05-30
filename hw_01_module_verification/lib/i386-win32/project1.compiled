@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <Compiler Value="C:\lazarus\fpc\3.0.4\bin\i386-win32\fpc.exe" Date="1317892300"/>
-  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -l -vewnhibq &quot;-FiC:\Users\Hannahawaa\Desktop\1 лаба\lib\i386-win32&quot; &quot;-FuC:\Users\Hannahawaa\Desktop\1 лаба\&quot; &quot;-FUC:\Users\Hannahawaa\Desktop\1 лаба\lib\i386-win32\&quot; &quot;-FEC:\Users\Hannahawaa\Desktop\1 лаба\&quot; &quot;-oC:\Users\Hannahawaa\Desktop\1 лаба\project1.exe&quot; project1.lpr"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -l -vewnhibq &quot;-FiC:\Users\Hannahawaa\Desktop\1 лаба защита\lib\i386-win32&quot; &quot;-FuC:\Users\Hannahawaa\Desktop\1 лаба защита\&quot; &quot;-FUC:\Users\Hannahawaa\Desktop\1 лаба защита\lib\i386-win32\&quot; &quot;-FEC:\Users\Hannahawaa\Desktop\1 лаба защита\&quot; &quot;-oC:\Users\Hannahawaa\Desktop\1 лаба защита\project1.exe&quot; project1.lpr"/>
 </CONFIG>

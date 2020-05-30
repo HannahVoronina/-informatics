@@ -125,6 +125,7 @@ end;
 
 function GetMaxAngle(T: Triangle): Real;
 
+
 var AB, BC, AC : Extended;
     AngleA, AngleB, AngleC : Extended;
 
@@ -134,13 +135,13 @@ begin
    BC := GetDistance(T.B, T.C);
    AC := GetDistance(T.A, T.C);
 
-   AngleA:= ArcCos((sqr(BC) + sqr(AB) - sqr (AB))/(2*BC*AC));
-   AngleB:= ArcCos((sqr(AB) + sqr(AC) - sqr (BC))/(2*AB*AC));
-   AngleC:= ArcCos((sqr(AB) + sqr(BC) - sqr (AC))/(2*AB*BC));
+   AngleA:= ArcCos((sqr(AC) + sqr(AB) - sqr (BC))/(2*AC*AB));
+   AngleB:= ArcCos((sqr(BC) + sqr(AB) - sqr (AC))/(2*BC*AB));
+   AngleC:= ArcCos((sqr(BC) + sqr(AC) - sqr (AB))/(2*BC*AC));
 
-   AngleA := AngleA*0.017453;
-   AngleB := AngleB*0.017453;
-   AngleC := AngleC*0.017453;
+   AngleA := AngleA*180/pi;
+   AngleB := AngleB*180/pi;
+   AngleC := AngleC*180/pi;
 
   if ((AngleA)>=(AngleB)) and ((AngleA)>=(AngleC)) then
     exit (AngleA);
